@@ -104,6 +104,22 @@ public class eggPlantBuilder extends Builder {
     public String getColorDepth() {
         return colorDepth;
     }
+
+    public String getParams() {
+        return params;
+    }
+
+    public String getGlobalResultsFolder() {
+         return globalResultsFolder;
+    }
+
+    public boolean getReportFailures() {
+        return reportFailures;
+    }
+
+    public boolean getCommandLineOutput() {
+        return commandLineOutput;
+    }
     
     //ajf 10/26/11 added getter for default doc dir
     
